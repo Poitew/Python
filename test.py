@@ -3,6 +3,7 @@ import sys
 
 num = int(random.random() * 10)
 
+print(num)
 if num > 8:
     print("Bad")
     sys.exit(1)
